@@ -63,3 +63,10 @@ node_modules/
 
 # dotenv environment variables file
 .env
+
+#Dist files
+dist/
+
+#Semantic Source
+/semantic/src/
+/semantic/tasks/
