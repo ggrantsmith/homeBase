@@ -3,9 +3,6 @@
     "rules": "database.rules.json"
   },
   "functions": {
-    "predeploy": [
-      
-    ],
     "source": "functions"
   },
   "hosting": {
@@ -14,12 +11,6 @@
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
-    ],
-    "rewrites": [
-      {
-        "source": "**",
-        "destination": "/index.html"
-      }
     ]
   },
   "storage": {
